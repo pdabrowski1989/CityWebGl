@@ -1,6 +1,6 @@
 const path = require('path');
 const config = {
-    entry: './app.js',
+    entry: './game/index.js',
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist')
